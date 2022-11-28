@@ -7,9 +7,11 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <Search />
-      <City />
-      <Weather />
+      <div className="container">
+        <Search />
+        <City />
+        <Weather />
+      </div>
     </div>
   );
 }
