@@ -13,11 +13,9 @@ export default function App() {
         <Weather />
       </div>{" "}
       <footer>
-        This project was coded by{" "}
-        <mailto email="edelesvaux@gmail.com">Erell Delesvaux </mailto>and is
-        open-sourced on{" "}
-        <a href="https://github.com/ErellD/weather-react-app">Github</a>
-        and hosted on{" "}
+        This project was coded by Erell Delesvaux and is open-sourced on{" "}
+        <a href="https://github.com/ErellD/weather-react-app">Github</a> and
+        hosted on{" "}
         <a href="https://lively-zabaione-801227.netlify.app/">Netlify</a>
       </footer>
     </div>
