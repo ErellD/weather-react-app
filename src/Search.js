@@ -12,6 +12,7 @@ export default function Search() {
               type="search"
               placeholder="Type a city..."
               className="form-control btn shadow-sm"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
