@@ -12,7 +12,7 @@ export default function Weather(props) {
     setWeatherData({
       currentTemp: Math.round(response.data.main.temp),
       ready: true,
-      imgUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: response.data.weather[0].icon,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
