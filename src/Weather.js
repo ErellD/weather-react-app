@@ -12,7 +12,7 @@ export default function Weather(props) {
     setWeatherData({
       currentTemp: Math.round(response.data.main.temp),
       ready: true,
-      imgUrl: "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png",
+      imgUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
@@ -23,6 +23,7 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function handleCityChange(event) {
