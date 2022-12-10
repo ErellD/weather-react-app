@@ -1,5 +1,3 @@
-import Search from "./Search";
-
 import Weather from "./Weather";
 
 import "./App.css";
@@ -8,9 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search />
-
-        <Weather />
+        <Weather defaultCity="Sydney" />
       </div>{" "}
       <footer>
         This project was coded by Erell Delesvaux and is open-sourced on{" "}
