@@ -7,6 +7,7 @@
 .units {
   position: relative;
   top: -58px;
+  margin-left: 10px;
 }
 
 .icon {
@@ -16,8 +17,16 @@
   height: 100px;
 }
 .humidity {
-  margin: 10px;
+  margin: 10px 0 0 10px;
 }
 .wind {
-  margin: 10px;
+  margin: 0px 0 0 10px;
+}
+
+.City {
+  padding: 20px 10px 20px 10px;
+}
+
+.city-name {
+  font-size: 32px;
 }
