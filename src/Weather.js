@@ -61,15 +61,6 @@ export default function Weather(props) {
                 Search
               </button>
             </div>
-            <div className="col-3">
-              <button
-                type="submit"
-                value="Home"
-                className="btn w-100 shadow-sm"
-              >
-                Home
-              </button>{" "}
-            </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
