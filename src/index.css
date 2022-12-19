@@ -2,3 +2,7 @@
   max-width: 600px;
   margin: 20px auto;
 }
+
+root {
+  background-color: #113f67;
+}

@@ -5,15 +5,15 @@
   font-size: 32px;
 }
 .btn {
-  border-color: #393e46;
-  color: #393e46;
+  border-color: #38598b;
+  color: #38598b;
 }
 .btn:hover {
   background-color: #ebf1fe;
-  color: #0f5e34;
+  color: #38598b;
 }
 .current-temp {
-  color: #222831;
+  color: #38598b;
   font-size: 100px;
   font-weight: 400;
   line-height: 1;
@@ -23,6 +23,7 @@
   position: relative;
   top: -58px;
   margin-left: 10px;
+  color: #38598b;
 }
 
 .icon {
@@ -30,6 +31,7 @@
   margin: 0 auto;
   width: 100px;
   height: 100px;
+  color: #38598b;
 }
 .humidity {
   margin: 10px 0 0 10px;
